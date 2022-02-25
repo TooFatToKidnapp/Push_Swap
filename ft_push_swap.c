@@ -17,11 +17,9 @@ char	*ft_arg_to_string(char **av)
 {
 	char	*string;
 	char	*tmp;
-	int		size;
 	int		i;
 
 	i = 1;
-	size = ft_size_of_av(av);
 	string = (char *)malloc(1);
 	while (av[i])
 	{
@@ -98,17 +96,4 @@ int	ft_check_arg(char *av)
 		i++;
 	}
 	return (0);
-}
-
-// get size of av
-int	ft_size_of_av(char **av)
-{
-	int	size;
-	int	i;
-
-	i = 0;
-	size = 0;
-	while (av[i])
-		size += ft_strlen(av[i++]) + 1;
-	return (size);
 }

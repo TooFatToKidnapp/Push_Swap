@@ -1,4 +1,4 @@
-/* ************************************************************************** */
+ƒ/* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
@@ -51,7 +51,6 @@ int			ft_get_smallest_index(t_array *stack_a);
 int			ft_check_arg(char *av);
 int			ft_find_key_number(int *sorted_list, int size,
 				int divided, int chunks);
-int			ft_size_of_av(char **av);
 int			ft_strcmp(char *s1, char *s2);
 int			ft_isdigit(int c);
 char		**ft_stacks_init(char *string, t_stacks *stacks);
