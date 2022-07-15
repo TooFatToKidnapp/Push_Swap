@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checker.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hdrabi <hdrabi@student.42.fr>              +#+  +:+       +#+        */
+/*   By: aabdou <aabdou@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/21 13:52:39 by hdrabi            #+#    #+#             */
-/*   Updated: 2021/12/31 14:06:37 by hdrabi           ###   ########.fr       */
+/*   Created: 2021/12/21 13:52:39 by aabdou            #+#    #+#             */
+/*   Updated: 2022/07/15 15:52:35 by aabdou           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ int	main(int ac, char **av)
 	stacks = ft_create_stack(string);
 	line = get_next_line(0);
 	while (line && line[0] != '\n')
-	{	
+	{
 		ft_read_from_ps(line, &stacks);
 		free(line);
 		line = get_next_line(0);
